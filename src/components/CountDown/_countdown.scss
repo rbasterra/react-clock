@@ -1,0 +1,15 @@
+.digital-clock {
+    & input {
+        margin-bottom: 1rem;
+        color: lightgreen;
+        background-color: black;
+        padding: 5px;
+        font-weight: bolder;
+
+        &::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+        }
+    }
+
+    
+}

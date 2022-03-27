@@ -1,6 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 @import './components/DigitalClock/digitalClock';
 @import './components/StopWatch/stopwatch';
+@import './components/CountDown/countdown';
 
 .App {
     display: flex;
