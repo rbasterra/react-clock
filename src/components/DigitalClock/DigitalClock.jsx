@@ -15,13 +15,13 @@ const DigitalClock = () => {
     }, []);
 
   return (
-    <>
+    <div className='digital-clock'>
         <h1 className='digital-clock__title'>Clock</h1>
-        <div className='digital-clock'>
+        <div className='digital-clock__container'>
             <AiOutlineClockCircle className='digital-clock__icon'/>
             <h2>{clockState}</h2>
         </div>
-    </>
+    </div>
   )
 }
 

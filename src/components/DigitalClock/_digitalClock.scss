@@ -1,15 +1,24 @@
 .digital-clock {
-    // border: solid 2px #1a759f;
-    border: solid 2px lightseagreen;
-
-    border-radius: 5%;
-    padding: 2%;
-    color: lightgreen;
-    background-color: black;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+
+    &__container {
+        // border: solid 2px #1a759f;
+        border: solid 2px lightseagreen;
+
+        border-radius: 5%;
+        padding: 2%;
+        color: lightgreen;
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+    }
     
 
     &__icon {
